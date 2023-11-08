@@ -100,7 +100,17 @@ div#wrapper {
     height: 72px;
     opacity: 0;
   }
-}
+} 
+
+.online{
+  width: 20px;
+  height: 20px; 
+  background-color: green;
+  /* color: #fff; */
+  padding: 5px; 
+  margin: 5px;
+  border-radius: 50px;
+} 
 
 /* Network Resul Title */
 div#netword-speed-title {
@@ -166,8 +176,9 @@ button#detect-speed:focus{
   box-shadow: 0px 0px 5px #0088ffaa;
 }
 
+
 button#detect-speed[disabled] {
   filter: brightness(0.9);
   pointer-events: none;
   cursor: not-allowed;
-}
+} 
